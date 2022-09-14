@@ -38,7 +38,7 @@ p{
 }
 
 li{
-    font-size:1.5rem;
+    font-size:1.75rem;
 }
 
 #wrapper{
@@ -151,7 +151,11 @@ figure{
     transition:all 100ms;
 }
 
-figure:hover{
+a{
+    transition:all 100ms;
+}
+
+a:hover{
     transform:scale(101%);
     filter:brightness(110%);
 }
@@ -197,4 +201,9 @@ footer{
     padding:1rem;
     border-radius:.5rem;
     text-align:center;
+}
+
+footer a:hover{
+    font-size:2.1rem;
+    text-shadow:0 0 1rem #fff5;
 }
