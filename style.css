@@ -186,6 +186,16 @@ a{
     margin-bottom:.5rem;
 }
 
+#learn strong{
+    transition:all 100ms;
+}
+#learn strong:hover{
+    background-color:var(--nord0);
+    color:var(--nord13);
+    border-radius: .25rem;
+    cursor:default;
+}
+
 #learn p{
     background-color:var(--nord6);
     padding:1rem;
